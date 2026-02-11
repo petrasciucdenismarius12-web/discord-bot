@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix="/", intents=intents)
 async def on_ready():
     print(f"Bot online: {bot.user}")
 
-TOKEN = os.getenv("MTQ3MTE4MzIxMDQzOTUxMjI1OQ.GULJKA.g2jqxyd894sBzTUl1uQpY2hL8xlcfWHodQPhbMN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 if not TOKEN:
     print("ERROR: DISCORD_TOKEN not found!")
